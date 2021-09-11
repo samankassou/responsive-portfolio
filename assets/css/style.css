@@ -245,11 +245,11 @@ header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
+  padding: 3.5rem 1.5rem;
 }
 
 .home__text {
+  color: #21243d;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -267,14 +267,12 @@ header {
   font-weight: 700;
   line-height: 3rem;
   font-size: 2.5rem;
-  color: #21243d;
   padding-left: 3rem;
   padding-right: 3rem;
   margin: 1.7rem auto;
 }
 
 .home__description {
-  color: #21243d;
   margin-bottom: 1.8rem;
   font-size: 1.2rem;
 }
@@ -300,8 +298,12 @@ header {
   margin: 1rem auto;
 }
 
-.section.recent-posts {
-  background-color: #ccc;
+.section--gray {
+  background-color: #ece2e2;
+}
+
+.section--padded {
+  padding: 1rem;
 }
 
 .post-prev {
@@ -326,5 +328,50 @@ header {
 .post-prev__content {
   color: #21243d;
   font-size: 1.2rem;
+}
+
+.work-prev {
+  margin-bottom: 4rem;
+}
+
+.work-prev:last-child {
+  border-bottom: 2px solid #b695a4;
+  padding-bottom: 1rem;
+}
+
+.work-prev__title {
+  color: #21243d;
+  font-weight: 700;
+  font-size: 2rem;
+  margin: 1rem auto;
+}
+
+.work-prev__img {
+  border-radius: 6px;
+}
+
+.work-prev__meta {
+  margin: 1.5rem auto;
+}
+
+.work-prev__year {
+  color: #fff;
+  background-color: #21243d;
+  font-weight: 900;
+  font-size: 1.2rem;
+  padding: 4px 1.3rem;
+  border-radius: 1.2rem;
+}
+
+.work-prev__category {
+  margin-left: 2rem;
+  color: #b695a4;
+  font-size: 1.2rem;
+}
+
+.work-prev__text {
+  color: #21243d;
+  font-size: 1.2rem;
+  margin-top: 2rem;
 }
 /*# sourceMappingURL=style.css.map */
