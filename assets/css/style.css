@@ -275,7 +275,7 @@ header {
 
 .home__description {
   color: #21243d;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.8rem;
   font-size: 1.2rem;
 }
 
@@ -287,5 +287,44 @@ header {
   border-radius: 4px;
   font-weight: 500;
   font-size: 1.4rem;
+}
+
+.section {
+  padding: 1rem 0.6rem;
+}
+
+.section__heading {
+  color: #21243d;
+  text-align: center;
+  font-size: 1.3rem;
+  margin: 1rem auto;
+}
+
+.section.recent-posts {
+  background-color: #ccc;
+}
+
+.post-prev {
+  background-color: #fff;
+  padding: 1.3rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.post-prev__title {
+  color: #21243d;
+  font-weight: 700;
+  font-size: 1.7rem;
+}
+
+.post-prev__meta {
+  color: #21243d;
+  font-size: 1.2rem;
+  margin: 1rem auto;
+}
+
+.post-prev__content {
+  color: #21243d;
+  font-size: 1.2rem;
 }
 /*# sourceMappingURL=style.css.map */

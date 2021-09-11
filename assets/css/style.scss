@@ -94,7 +94,7 @@ header {
   }
   &__description {
     color: $dark;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1.8rem;
     font-size: 1.2rem;
   }
   &__btn {
@@ -105,5 +105,37 @@ header {
     border-radius: 4px;
     font-weight: 500;
     font-size: 1.4rem;
+  }
+}
+.section {
+  padding: 1rem 0.6rem;
+  &__heading {
+    color: $dark;
+    text-align: center;
+    font-size: 1.3rem;
+    margin: 1rem auto;
+  }
+  &.recent-posts {
+    background-color: #ccc;
+  }
+}
+.post-prev {
+  background-color: #fff;
+  padding: 1.3rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  &__title {
+    color: $dark;
+    font-weight: 700;
+    font-size: 1.7rem;
+  }
+  &__meta {
+    color: $dark;
+    font-size: 1.2rem;
+    margin: 1rem auto;
+  }
+  &__content {
+    color: $dark;
+    font-size: 1.2rem;
   }
 }
