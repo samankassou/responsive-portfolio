@@ -10,16 +10,19 @@
 <body>
     <header>
         <nav class="nav">
-            <a href="#">Works</a>
-            <a href="#">Blog</a>
-            <a href="#">Contact</a>
+            <div id="nav-menu" class="nav__menu">
+                <a href="#" class="nav__link">Home</a>
+                <a href="#" class="nav__link">Works</a>
+                <a href="#" class="nav__link">Blog</a>
+                <a href="#" class="nav__link">Contact</a>
+                <div id="toggle-menu" class="nav__toggle-menu">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
         </nav>
-        <div id="toggle-menu" class="toggle-menu">
-            <div></div>
-            <div></div>
-            <div></div>
-        </div>
-        <section>
+        <section class="home">
             <div>
                 <h1>
                     Hi, I am John,
@@ -37,82 +40,84 @@
             </div>
         </section>
     </header>
-    <section class="section recent-posts" id="recent-posts">
-        <h2 class="section__heading">
-            Recent posts
-        </h2>
-        <div class="post-prev">
-            <h3 class="post-prev__title">
-                Making a design system from
-                scratch
-            </h3>
-            <p class="post-prev__meta">12 Feb 2020 | Design, Pattern</p>
-            <p class="post-prev__content">
-                Amet minim mollit non deserunt ullamco
-                est sit aliqua dolor do amet sint. Velit officia
-                consequat duis enim velit mollit.
-                Exercitation veniam consequat sunt nostrud
-                amet.
-            </p>
-        </div>
-        <div class="post-prev">
-            <h3 class="post-prev__heading">
-                Creating pixel perfect icons in
-                Figma
-            </h3>
-            <p class="post-prev__meta">12 Feb 2020 | Design, Pattern</p>
-            <p class="post-prev__content">
-                Amet minim mollit non deserunt ullamco
-                est sit aliqua dolor do amet sint. Velit officia
-                consequat duis enim velit mollit.
-                Exercitation veniam consequat sunt nostrud
-                amet.
-            </p>
-        </div>
-    </section>
-    <section id="featured-works" class="featured-works">
-        <h2 class="section__heading">
-            Featured works
-        </h2>
-        <div class="work-prev">
-            <h3 class="work-prev__heading">Designing Dashboards</h3>
-            <p class="work-prev__meta">
-                <span class="work-prev__year">2020</span>
-                <span class="work-prev__label">Dashboard</span>
-            </p>
-            <div class="work-prev__text">
-                Amet minim mollit non deserunt ullamco est sit
-                aliqua dolor do amet sint. Velit officia
-                consequat duis enim velit mollit. Exercitation
-                veniam consequat sunt nostrud amet.
+    <main>
+        <section class="section recent-posts" id="recent-posts">
+            <h2 class="section__heading">
+                Recent posts
+            </h2>
+            <div class="post-prev">
+                <h3 class="post-prev__title">
+                    Making a design system from
+                    scratch
+                </h3>
+                <p class="post-prev__meta">12 Feb 2020 | Design, Pattern</p>
+                <p class="post-prev__content">
+                    Amet minim mollit non deserunt ullamco
+                    est sit aliqua dolor do amet sint. Velit officia
+                    consequat duis enim velit mollit.
+                    Exercitation veniam consequat sunt nostrud
+                    amet.
+                </p>
             </div>
-        </div>
-        <div class="work-prev">
-            <h3 class="work-prev__heading">Vibrant Portraits of 2020</h3>
-            <p class="work-prev__meta">
-                <span class="work-prev__year">2018</span>
-                <span class="work-prev__label">Illustration</span>
-            </p>
-            <div class="work-prev__text">
-                Amet minim mollit non deserunt ullamco est sit
-                aliqua dolor do amet sint. Velit officia
-                consequat duis enim velit mollit. Exercitation
-                veniam consequat sunt nostrud amet.
+            <div class="post-prev">
+                <h3 class="post-prev__heading">
+                    Creating pixel perfect icons in
+                    Figma
+                </h3>
+                <p class="post-prev__meta">12 Feb 2020 | Design, Pattern</p>
+                <p class="post-prev__content">
+                    Amet minim mollit non deserunt ullamco
+                    est sit aliqua dolor do amet sint. Velit officia
+                    consequat duis enim velit mollit.
+                    Exercitation veniam consequat sunt nostrud
+                    amet.
+                </p>
             </div>
-        </div>
-        <div class="work-prev">
-            <h3 class="work-prev__heading">36 Days of Malayalam type</h3>
-            <p class="work-prev__meta">
-                <span class="work-prev__year">2018</span>
-                <span class="work-prev__label">Typography</span>
-            </p>
-            <div class="work-prev__text">
-                Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
-                sint. Velit officia consequat duis enim velit mollit. Exercitation veniam
-                consequat sunt nostrud amet.
+        </section>
+        <section id="featured-works" class="featured-works">
+            <h2 class="section__heading">
+                Featured works
+            </h2>
+            <div class="work-prev">
+                <h3 class="work-prev__heading">Designing Dashboards</h3>
+                <p class="work-prev__meta">
+                    <span class="work-prev__year">2020</span>
+                    <span class="work-prev__label">Dashboard</span>
+                </p>
+                <div class="work-prev__text">
+                    Amet minim mollit non deserunt ullamco est sit
+                    aliqua dolor do amet sint. Velit officia
+                    consequat duis enim velit mollit. Exercitation
+                    veniam consequat sunt nostrud amet.
+                </div>
             </div>
-        </div>
-    </section>
+            <div class="work-prev">
+                <h3 class="work-prev__heading">Vibrant Portraits of 2020</h3>
+                <p class="work-prev__meta">
+                    <span class="work-prev__year">2018</span>
+                    <span class="work-prev__label">Illustration</span>
+                </p>
+                <div class="work-prev__text">
+                    Amet minim mollit non deserunt ullamco est sit
+                    aliqua dolor do amet sint. Velit officia
+                    consequat duis enim velit mollit. Exercitation
+                    veniam consequat sunt nostrud amet.
+                </div>
+            </div>
+            <div class="work-prev">
+                <h3 class="work-prev__heading">36 Days of Malayalam type</h3>
+                <p class="work-prev__meta">
+                    <span class="work-prev__year">2018</span>
+                    <span class="work-prev__label">Typography</span>
+                </p>
+                <div class="work-prev__text">
+                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+                    sint. Velit officia consequat duis enim velit mollit. Exercitation veniam
+                    consequat sunt nostrud amet.
+                </div>
+            </div>
+        </section>
+    </main>
     <footer class="footer">
         <div class="footer__socials">
 

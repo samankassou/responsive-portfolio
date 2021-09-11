@@ -1,5 +1,71 @@
 @import "fonts";
+
 $primary: #ff6464;
 $secondary: #00a8cc;
 $dark: #21243d;
 $light: #b695a4;
+
+@import "base";
+
+body {
+  overflow-x: hidden;
+}
+header {
+  min-height: 100vh;
+  position: relative;
+}
+.nav {
+  background-color: #fff;
+  min-height: 4rem;
+
+  &__menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 0;
+    transition: height 0.5s;
+    &.active {
+      height: 100vh;
+      .nav__link {
+        opacity: 1;
+      }
+      .nav__toggle-menu {
+        div {
+          &:nth-child(1) {
+            transform: rotate(-45deg) translateX(-11px);
+          }
+          &:nth-child(2) {
+            opacity: 0;
+          }
+          &:nth-child(3) {
+            transform: rotate(45deg) translateX(-11px);
+          }
+        }
+      }
+    }
+  }
+  &__link {
+    text-decoration: none;
+    color: #000;
+    opacity: 0;
+  }
+  &__toggle-menu {
+    background-color: transparent;
+    padding: 5px;
+    cursor: pointer;
+    position: absolute;
+    top: 1rem;
+    right: 1.3rem;
+    div {
+      width: 1.9rem;
+      height: 2px;
+      margin: 6px auto 0;
+      background-color: $dark;
+      transition: 0.3s;
+      &:first-child {
+        margin-top: 0;
+      }
+    }
+  }
+}

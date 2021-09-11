@@ -1,1 +1,235 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+/* heebo-100 - latin */
+@font-face {
+  font-family: "Heebo";
+  font-style: normal;
+  font-weight: 100;
+  src: url("../fonts/heebo-v12-latin/heebo-v12-latin-100.eot");
+  /* IE9 Compat Modes */
+  src: local(""), url("../fonts/heebo-v12-latin/heebo-v12-latin-100.eot?#iefix") format("embedded-opentype"), url("../fonts/heebo-v12-latin/heebo-v12-latin-100.woff2") format("woff2"), url("../fonts/heebo-v12-latin/heebo-v12-latin-100.woff") format("woff"), url("../fonts/heebo-v12-latin/heebo-v12-latin-100.ttf") format("truetype"), url("../fonts/heebo-v12-latin/heebo-v12-latin-100.svg#Heebo") format("svg");
+  /* Legacy iOS */
+}
+
+/* heebo-200 - latin */
+@font-face {
+  font-family: "Heebo";
+  font-style: normal;
+  font-weight: 200;
+  src: url("../fonts/heebo-v12-latin/heebo-v12-latin-200.eot");
+  /* IE9 Compat Modes */
+  src: local(""), url("../fonts/heebo-v12-latin/heebo-v12-latin-200.eot?#iefix") format("embedded-opentype"), url("../fonts/heebo-v12-latin/heebo-v12-latin-200.woff2") format("woff2"), url("../fonts/heebo-v12-latin/heebo-v12-latin-200.woff") format("woff"), url("../fonts/heebo-v12-latin/heebo-v12-latin-200.ttf") format("truetype"), url("../fonts/heebo-v12-latin/heebo-v12-latin-200.svg#Heebo") format("svg");
+  /* Legacy iOS */
+}
+
+/* heebo-300 - latin */
+@font-face {
+  font-family: "Heebo";
+  font-style: normal;
+  font-weight: 300;
+  src: url("../fonts/heebo-v12-latin/heebo-v12-latin-300.eot");
+  /* IE9 Compat Modes */
+  src: local(""), url("../fonts/heebo-v12-latin/heebo-v12-latin-300.eot?#iefix") format("embedded-opentype"), url("../fonts/heebo-v12-latin/heebo-v12-latin-300.woff2") format("woff2"), url("../fonts/heebo-v12-latin/heebo-v12-latin-300.woff") format("woff"), url("../fonts/heebo-v12-latin/heebo-v12-latin-300.ttf") format("truetype"), url("../fonts/heebo-v12-latin/heebo-v12-latin-300.svg#Heebo") format("svg");
+  /* Legacy iOS */
+}
+
+/* heebo-regular - latin */
+@font-face {
+  font-family: "Heebo";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/heebo-v12-latin/heebo-v12-latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: local(""), url("../fonts/heebo-v12-latin/heebo-v12-latin-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/heebo-v12-latin/heebo-v12-latin-regular.woff2") format("woff2"), url("../fonts/heebo-v12-latin/heebo-v12-latin-regular.woff") format("woff"), url("../fonts/heebo-v12-latin/heebo-v12-latin-regular.ttf") format("truetype"), url("../fonts/heebo-v12-latin/heebo-v12-latin-regular.svg#Heebo") format("svg");
+  /* Legacy iOS */
+}
+
+/* heebo-500 - latin */
+@font-face {
+  font-family: "Heebo";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/heebo-v12-latin/heebo-v12-latin-500.eot");
+  /* IE9 Compat Modes */
+  src: local(""), url("../fonts/heebo-v12-latin/heebo-v12-latin-500.eot?#iefix") format("embedded-opentype"), url("../fonts/heebo-v12-latin/heebo-v12-latin-500.woff2") format("woff2"), url("../fonts/heebo-v12-latin/heebo-v12-latin-500.woff") format("woff"), url("../fonts/heebo-v12-latin/heebo-v12-latin-500.ttf") format("truetype"), url("../fonts/heebo-v12-latin/heebo-v12-latin-500.svg#Heebo") format("svg");
+  /* Legacy iOS */
+}
+
+/* heebo-600 - latin */
+@font-face {
+  font-family: "Heebo";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/heebo-v12-latin/heebo-v12-latin-600.eot");
+  /* IE9 Compat Modes */
+  src: local(""), url("../fonts/heebo-v12-latin/heebo-v12-latin-600.eot?#iefix") format("embedded-opentype"), url("../fonts/heebo-v12-latin/heebo-v12-latin-600.woff2") format("woff2"), url("../fonts/heebo-v12-latin/heebo-v12-latin-600.woff") format("woff"), url("../fonts/heebo-v12-latin/heebo-v12-latin-600.ttf") format("truetype"), url("../fonts/heebo-v12-latin/heebo-v12-latin-600.svg#Heebo") format("svg");
+  /* Legacy iOS */
+}
+
+/* heebo-700 - latin */
+@font-face {
+  font-family: "Heebo";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/heebo-v12-latin/heebo-v12-latin-700.eot");
+  /* IE9 Compat Modes */
+  src: local(""), url("../fonts/heebo-v12-latin/heebo-v12-latin-700.eot?#iefix") format("embedded-opentype"), url("../fonts/heebo-v12-latin/heebo-v12-latin-700.woff2") format("woff2"), url("../fonts/heebo-v12-latin/heebo-v12-latin-700.woff") format("woff"), url("../fonts/heebo-v12-latin/heebo-v12-latin-700.ttf") format("truetype"), url("../fonts/heebo-v12-latin/heebo-v12-latin-700.svg#Heebo") format("svg");
+  /* Legacy iOS */
+}
+
+/* heebo-800 - latin */
+@font-face {
+  font-family: "Heebo";
+  font-style: normal;
+  font-weight: 800;
+  src: url("../fonts/heebo-v12-latin/heebo-v12-latin-800.eot");
+  /* IE9 Compat Modes */
+  src: local(""), url("../fonts/heebo-v12-latin/heebo-v12-latin-800.eot?#iefix") format("embedded-opentype"), url("../fonts/heebo-v12-latin/heebo-v12-latin-800.woff2") format("woff2"), url("../fonts/heebo-v12-latin/heebo-v12-latin-800.woff") format("woff"), url("../fonts/heebo-v12-latin/heebo-v12-latin-800.ttf") format("truetype"), url("../fonts/heebo-v12-latin/heebo-v12-latin-800.svg#Heebo") format("svg");
+  /* Legacy iOS */
+}
+
+/* heebo-900 - latin */
+@font-face {
+  font-family: "Heebo";
+  font-style: normal;
+  font-weight: 900;
+  src: url("../fonts/heebo-v12-latin/heebo-v12-latin-900.eot");
+  /* IE9 Compat Modes */
+  src: local(""), url("../fonts/heebo-v12-latin/heebo-v12-latin-900.eot?#iefix") format("embedded-opentype"), url("../fonts/heebo-v12-latin/heebo-v12-latin-900.woff2") format("woff2"), url("../fonts/heebo-v12-latin/heebo-v12-latin-900.woff") format("woff"), url("../fonts/heebo-v12-latin/heebo-v12-latin-900.ttf") format("truetype"), url("../fonts/heebo-v12-latin/heebo-v12-latin-900.svg#Heebo") format("svg");
+  /* Legacy iOS */
+}
+
+/* === base styles === */
+* {
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Heebo", sans-serif;
+}
+
+h1,
+h2,
+h3,
+hr,
+p {
+  margin: 0;
+}
+
+h1,
+h2,
+h3 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+  vertical-align: middle;
+}
+
+*,
+::before,
+::after {
+  border-width: 0;
+  border-style: solid;
+}
+
+button:focus {
+  outline: 1px dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+header {
+  min-height: 100vh;
+  position: relative;
+}
+
+.nav {
+  background-color: #fff;
+  min-height: 4rem;
+}
+
+.nav__menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 0;
+  -webkit-transition: height 0.5s;
+  transition: height 0.5s;
+}
+
+.nav__menu.active {
+  height: 100vh;
+}
+
+.nav__menu.active .nav__link {
+  opacity: 1;
+}
+
+.nav__menu.active .nav__toggle-menu div:nth-child(1) {
+  -webkit-transform: rotate(-45deg) translateX(-11px);
+          transform: rotate(-45deg) translateX(-11px);
+}
+
+.nav__menu.active .nav__toggle-menu div:nth-child(2) {
+  opacity: 0;
+}
+
+.nav__menu.active .nav__toggle-menu div:nth-child(3) {
+  -webkit-transform: rotate(45deg) translateX(-11px);
+          transform: rotate(45deg) translateX(-11px);
+}
+
+.nav__link {
+  text-decoration: none;
+  color: #000;
+  opacity: 0;
+}
+
+.nav__toggle-menu {
+  background-color: transparent;
+  padding: 5px;
+  cursor: pointer;
+  position: absolute;
+  top: 1rem;
+  right: 1.3rem;
+}
+
+.nav__toggle-menu div {
+  width: 1.9rem;
+  height: 2px;
+  margin: 6px auto 0;
+  background-color: #21243d;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.nav__toggle-menu div:first-child {
+  margin-top: 0;
+}
+/*# sourceMappingURL=style.css.map */
