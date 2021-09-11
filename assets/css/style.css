@@ -136,6 +136,7 @@ ul {
 
 img {
   display: block;
+  max-width: 100%;
   vertical-align: middle;
 }
 
@@ -192,8 +193,8 @@ header {
 }
 
 .nav__menu.active .nav__toggle-menu div:nth-child(1) {
-  -webkit-transform: rotate(-45deg) translateX(-11px);
-          transform: rotate(-45deg) translateX(-11px);
+  -webkit-transform: rotate(-45deg) translateX(-14px);
+          transform: rotate(-45deg) translateX(-14px);
 }
 
 .nav__menu.active .nav__toggle-menu div:nth-child(2) {
@@ -201,8 +202,8 @@ header {
 }
 
 .nav__menu.active .nav__toggle-menu div:nth-child(3) {
-  -webkit-transform: rotate(45deg) translateX(-11px);
-          transform: rotate(45deg) translateX(-11px);
+  -webkit-transform: rotate(45deg) translateX(-14px);
+          transform: rotate(45deg) translateX(-14px);
 }
 
 .nav__link {
@@ -223,7 +224,7 @@ header {
 .nav__toggle-menu div {
   width: 1.9rem;
   height: 2px;
-  margin: 6px auto 0;
+  margin: 8px auto 0;
   background-color: #21243d;
   -webkit-transition: 0.3s;
   transition: 0.3s;
@@ -231,5 +232,60 @@ header {
 
 .nav__toggle-menu div:first-child {
   margin-top: 0;
+}
+
+.home {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.home__text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.home__name {
+  font-weight: 700;
+  line-height: 3rem;
+  font-size: 2.5rem;
+  color: #21243d;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  margin: 1.7rem auto;
+}
+
+.home__description {
+  color: #21243d;
+  margin-bottom: 1.5rem;
+  font-size: 1.2rem;
+}
+
+.home__btn {
+  color: #fff;
+  text-decoration: none;
+  background-color: #ff6464;
+  padding: 0.6rem 1.4rem;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 1.4rem;
 }
 /*# sourceMappingURL=style.css.map */
