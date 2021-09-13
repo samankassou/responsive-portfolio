@@ -228,7 +228,7 @@ header {
 
 .nav__link {
   text-decoration: none;
-  font-size: 1.1rem;
+  font-size: 1.25rem;
   font-weight: 500;
   color: #000;
   opacity: 0;
@@ -302,7 +302,14 @@ header {
     -webkit-box-align: start;
         -ms-flex-align: start;
             align-items: flex-start;
-    padding: 6rem 5rem 0;
+    padding: 6rem 5rem 3rem;
+    gap: 1rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .home {
+    gap: 5rem;
   }
 }
 
@@ -345,7 +352,7 @@ header {
 .home__name {
   font-weight: 700;
   line-height: 3rem;
-  font-size: 2.5rem;
+  font-size: 2.75rem;
   padding-left: 3rem;
   padding-right: 3rem;
   margin: 1.7rem 0;
@@ -354,23 +361,22 @@ header {
 @media screen and (min-width: 768px) {
   .home__name {
     padding-left: 0;
-    padding-right: 0;
+    padding-right: 7rem;
   }
 }
 
 .home__description {
   margin-bottom: 1.8rem;
-  font-size: 1.2rem;
 }
 
 .home__btn {
   color: #fff;
   text-decoration: none;
   background-color: #ff6464;
-  padding: 0.6rem 1.4rem;
+  padding: 0.6rem 1.25rem;
   border-radius: 4px;
   font-weight: 500;
-  font-size: 1.4rem;
+  font-size: 1.25rem;
 }
 
 .home__btn:hover {
@@ -384,8 +390,8 @@ header {
 .section__heading {
   color: #21243d;
   text-align: center;
-  font-size: 1.3rem;
-  margin: 1rem auto;
+  font-size: 1.38rem;
+  margin: 1.625rem auto;
 }
 
 @media screen and (min-width: 768px) {
@@ -412,7 +418,7 @@ header {
 }
 
 .section--gray {
-  background-color: #ece2e2;
+  background-color: #edf7fa;
 }
 
 .section--padded {
@@ -429,7 +435,7 @@ header {
 .post-prev__title {
   color: #21243d;
   font-weight: 700;
-  font-size: 1.7rem;
+  font-size: 1.63rem;
   cursor: pointer;
 }
 
@@ -439,13 +445,12 @@ header {
 
 .post-prev__meta {
   color: #21243d;
-  font-size: 1.2rem;
   margin: 1rem auto;
+  font-size: 1.125rem;
 }
 
 .post-prev__content {
   color: #21243d;
-  font-size: 1.2rem;
 }
 
 .work-prev {
@@ -466,8 +471,9 @@ header {
 .work-prev__title {
   color: #21243d;
   font-weight: 700;
-  font-size: 2rem;
-  margin: 1rem auto;
+  font-size: 1.875rem;
+  margin: 0 auto 1rem;
+  padding-top: 0;
   cursor: pointer;
 }
 
@@ -476,13 +482,13 @@ header {
 }
 
 .work-prev__img {
-  border-radius: 6px;
+  width: 100%;
 }
 
 @media screen and (min-width: 768px) {
   .work-prev__img {
-    height: 200px;
-    width: 400px;
+    height: 100%;
+    width: auto;
   }
 }
 
@@ -493,21 +499,20 @@ header {
 .work-prev__year {
   color: #fff;
   background-color: #21243d;
+  font-size: 1.125rem;
   font-weight: 900;
-  font-size: 1.2rem;
-  padding: 4px 1.3rem;
+  padding: 4px 1rem;
   border-radius: 1.2rem;
 }
 
 .work-prev__category {
   margin-left: 2rem;
   color: #b695a4;
-  font-size: 1.2rem;
+  font-size: 1.25rem;
 }
 
 .work-prev__text {
   color: #21243d;
-  font-size: 1.2rem;
   margin-top: 2rem;
 }
 
@@ -530,7 +535,7 @@ header {
 
 .footer__socials i {
   color: #21243d;
-  font-size: 3rem;
+  font-size: 1.875rem;
 }
 
 .footer__socials i:hover {

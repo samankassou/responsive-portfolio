@@ -54,7 +54,7 @@ header {
   }
   &__link {
     text-decoration: none;
-    font-size: 1.1rem;
+    font-size: 1.25rem;
     font-weight: 500;
     color: #000;
     opacity: 0;
@@ -100,7 +100,11 @@ header {
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
-    padding: 6rem 5rem 0;
+    padding: 6rem 5rem 3rem;
+    gap: 1rem;
+  }
+  @media screen and (min-width: 768px) {
+    gap: 5rem;
   }
   &__text {
     color: $dark;
@@ -121,27 +125,26 @@ header {
   &__name {
     font-weight: 700;
     line-height: 3rem;
-    font-size: 2.5rem;
+    font-size: 2.75rem;
     padding-left: 3rem;
     padding-right: 3rem;
     margin: 1.7rem 0;
     @media screen and (min-width: 768px) {
       padding-left: 0;
-      padding-right: 0;
+      padding-right: 7rem;
     }
   }
   &__description {
     margin-bottom: 1.8rem;
-    font-size: 1.2rem;
   }
   &__btn {
     color: #fff;
     text-decoration: none;
     background-color: $primary;
-    padding: 0.6rem 1.4rem;
+    padding: 0.6rem 1.25rem;
     border-radius: 4px;
     font-weight: 500;
-    font-size: 1.4rem;
+    font-size: 1.25rem;
     &:hover {
       background-color: rgba($color: $primary, $alpha: 0.8);
     }
@@ -152,8 +155,8 @@ header {
   &__heading {
     color: $dark;
     text-align: center;
-    font-size: 1.3rem;
-    margin: 1rem auto;
+    font-size: 1.38rem;
+    margin: 1.625rem auto;
     @media screen and (min-width: 768px) {
       text-align: left;
       padding-left: 4rem;
@@ -172,7 +175,7 @@ header {
     }
   }
   &--gray {
-    background-color: rgb(236, 226, 226);
+    background-color: #edf7fa;
   }
   &--padded {
     padding: 1rem;
@@ -186,7 +189,7 @@ header {
   &__title {
     color: $dark;
     font-weight: 700;
-    font-size: 1.7rem;
+    font-size: 1.63rem;
     cursor: pointer;
     &:hover {
       text-decoration: underline;
@@ -194,12 +197,11 @@ header {
   }
   &__meta {
     color: $dark;
-    font-size: 1.2rem;
     margin: 1rem auto;
+    font-size: 1.125rem;
   }
   &__content {
     color: $dark;
-    font-size: 1.2rem;
   }
 }
 .work-prev {
@@ -213,18 +215,23 @@ header {
   &__title {
     color: $dark;
     font-weight: 700;
-    font-size: 2rem;
-    margin: 1rem auto;
+    font-size: 1.875rem;
+    margin: 0 auto 1rem;
+    padding-top: 0;
     cursor: pointer;
     &:hover {
       text-decoration: underline;
     }
   }
   &__img {
-    border-radius: 6px;
+    width: 100%;
     @media screen and (min-width: 768px) {
-      height: 200px;
-      width: 400px;
+      height: 100%;
+      width: auto;
+    }
+  }
+  &__description {
+    @media screen and (min-width: 768px) {
     }
   }
   &__meta {
@@ -233,19 +240,18 @@ header {
   &__year {
     color: #fff;
     background-color: $dark;
+    font-size: 1.125rem;
     font-weight: 900;
-    font-size: 1.2rem;
-    padding: 4px 1.3rem;
+    padding: 4px 1rem;
     border-radius: 1.2rem;
   }
   &__category {
     margin-left: 2rem;
     color: $light;
-    font-size: 1.2rem;
+    font-size: 1.25rem;
   }
   &__text {
     color: $dark;
-    font-size: 1.2rem;
     margin-top: 2rem;
   }
 }
@@ -260,7 +266,7 @@ header {
     margin-bottom: 2rem;
     i {
       color: $dark;
-      font-size: 3rem;
+      font-size: 1.875rem;
       &:hover {
         color: rgba($color: $dark, $alpha: 0.8);
       }
