@@ -54,9 +54,17 @@ header {
   }
   &__link {
     text-decoration: none;
-    font-weight: 700;
+    font-size: 1.1rem;
+    font-weight: 500;
     color: #000;
     opacity: 0;
+    border-bottom: 5px solid #fff;
+    transition: color 0.3s, border 0.5s;
+    &--active,
+    &:hover {
+      color: $primary;
+      border-bottom-color: $primary;
+    }
     @media screen and (min-width: 768px) {
       opacity: 1;
     }
@@ -106,6 +114,9 @@ header {
       align-items: flex-start;
       padding-right: 2rem;
     }
+    @media screen and (min-width: 992px) {
+      flex: 10%;
+    }
   }
   &__name {
     font-weight: 700;
@@ -131,6 +142,9 @@ header {
     border-radius: 4px;
     font-weight: 500;
     font-size: 1.4rem;
+    &:hover {
+      background-color: rgba($color: $primary, $alpha: 0.8);
+    }
   }
 }
 .section {
@@ -140,6 +154,10 @@ header {
     text-align: center;
     font-size: 1.3rem;
     margin: 1rem auto;
+    @media screen and (min-width: 768px) {
+      text-align: left;
+      padding-left: 4rem;
+    }
   }
   &__content {
     @media screen and (min-width: 768px) {
@@ -169,6 +187,10 @@ header {
     color: $dark;
     font-weight: 700;
     font-size: 1.7rem;
+    cursor: pointer;
+    &:hover {
+      text-decoration: underline;
+    }
   }
   &__meta {
     color: $dark;
@@ -193,6 +215,10 @@ header {
     font-weight: 700;
     font-size: 2rem;
     margin: 1rem auto;
+    cursor: pointer;
+    &:hover {
+      text-decoration: underline;
+    }
   }
   &__img {
     border-radius: 6px;
@@ -235,6 +261,9 @@ header {
     i {
       color: $dark;
       font-size: 3rem;
+      &:hover {
+        color: rgba($color: $dark, $alpha: 0.8);
+      }
     }
   }
   &__copyright {

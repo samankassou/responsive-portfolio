@@ -152,6 +152,11 @@ button:focus {
   outline: 5px auto -webkit-focus-ring-color;
 }
 
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 body {
   overflow-x: hidden;
 }
@@ -223,9 +228,18 @@ header {
 
 .nav__link {
   text-decoration: none;
-  font-weight: 700;
+  font-size: 1.1rem;
+  font-weight: 500;
   color: #000;
   opacity: 0;
+  border-bottom: 5px solid #fff;
+  -webkit-transition: color 0.3s, border 0.5s;
+  transition: color 0.3s, border 0.5s;
+}
+
+.nav__link--active, .nav__link:hover {
+  color: #ff6464;
+  border-bottom-color: #ff6464;
 }
 
 @media screen and (min-width: 768px) {
@@ -320,6 +334,14 @@ header {
   }
 }
 
+@media screen and (min-width: 992px) {
+  .home__text {
+    -webkit-box-flex: 10%;
+        -ms-flex: 10%;
+            flex: 10%;
+  }
+}
+
 .home__name {
   font-weight: 700;
   line-height: 3rem;
@@ -351,6 +373,10 @@ header {
   font-size: 1.4rem;
 }
 
+.home__btn:hover {
+  background-color: rgba(255, 100, 100, 0.8);
+}
+
 .section {
   padding: 1rem 0.6rem;
 }
@@ -360,6 +386,13 @@ header {
   text-align: center;
   font-size: 1.3rem;
   margin: 1rem auto;
+}
+
+@media screen and (min-width: 768px) {
+  .section__heading {
+    text-align: left;
+    padding-left: 4rem;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -397,6 +430,11 @@ header {
   color: #21243d;
   font-weight: 700;
   font-size: 1.7rem;
+  cursor: pointer;
+}
+
+.post-prev__title:hover {
+  text-decoration: underline;
 }
 
 .post-prev__meta {
@@ -430,6 +468,11 @@ header {
   font-weight: 700;
   font-size: 2rem;
   margin: 1rem auto;
+  cursor: pointer;
+}
+
+.work-prev__title:hover {
+  text-decoration: underline;
 }
 
 .work-prev__img {
@@ -488,6 +531,10 @@ header {
 .footer__socials i {
   color: #21243d;
   font-size: 3rem;
+}
+
+.footer__socials i:hover {
+  color: rgba(33, 36, 61, 0.8);
 }
 
 .footer__copyright {
