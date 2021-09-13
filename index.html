@@ -7,11 +7,12 @@
     <title>Responsive portfolio</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/animate/aos.css">
 </head>
 <body>
     <div class="container">
         <header>
-            <nav class="nav">
+            <nav class="nav" data-aos="fade-down" data-aos-duration="1000">
                 <div id="nav-menu" class="nav__menu">
                     <a href="./index.html" class="nav__link nav__link--active">Home</a>
                     <a href="./works.html" class="nav__link">Works</a>
@@ -24,8 +25,8 @@
                     </div>
                 </div>
             </nav>
-            <section class="home">
-                <div class="home__text">
+            <section class="home" data-aos="fade-up" data-aos-duration="1000">
+                <div class="home__text" data-aos="fade-right" data-aos-duration="1000">
                     <h1 class="home__name">
                         Hi, I am John,
                         Creative Technologist
@@ -37,18 +38,18 @@
                     </p>
                     <a href="#" class="home__btn">Download Resume</a>
                 </div>
-                <div class="home__img-box">
+                <div class="home__img-box" data-aos="fade-left" data-aos-duration="1000">
                     <img class="home__img" src="./assets/images/profile.png" alt="profile">
                 </div>
             </section>
         </header>
         <main>
-            <section class="section section--gray" id="recent-posts">
+            <section class="section section--gray" id="recent-posts" data-aos="fade-up">
                 <h2 class="section__heading">
                     Recent posts
                 </h2>
                 <div class="section__content section__content--grid">
-                    <div class="post-prev">
+                    <div class="post-prev" data-aos="fade-right" data-aos-duration="1000">
                         <h3 class="post-prev__title">
                             Making a design system from
                             scratch
@@ -62,7 +63,7 @@
                             amet.
                         </p>
                     </div>
-                    <div class="post-prev">
+                    <div class="post-prev" data-aos="fade-left" data-aos-duration="1000">
                         <h3 class="post-prev__title">
                             Creating pixel perfect icons in
                             Figma
@@ -78,14 +79,14 @@
                     </div>
                 </div>
             </section>
-            <section id="featured-works" class="section section--padded featured-works">
+            <section id="featured-works" class="section section--padded featured-works" data-aos="fade-up">
                 <h2 class="section__heading">
                     Featured works
                 </h2>
                 <div class="section__content">
                     <div class="work-prev">
-                        <img class="work-prev__img" src="./assets/images/work-1.png" alt="project preview">
-                        <div class="work-prev__description">
+                        <img class="work-prev__img" src="./assets/images/work-1.png" alt="project preview" data-aos="fade-right" data-aos-duration="1000">
+                        <div class="work-prev__description" data-aos="fade-left" data-aos-duration="1000">
                             <h3 class="work-prev__title">Designing Dashboards</h3>
                             <p class="work-prev__meta">
                                 <span class="work-prev__year">2020</span>
@@ -100,8 +101,8 @@
                         </div>
                     </div>
                     <div class="work-prev">
-                        <img class="work-prev__img" src="./assets/images/work-2.png" alt="project preview">
-                        <div>
+                        <img class="work-prev__img" src="./assets/images/work-2.png" alt="project preview" data-aos="fade-right" data-aos-duration="1000">
+                        <div class="work-prev__description" data-aos="fade-left" data-aos-duration="1000">
                             <h3 class="work-prev__title">Vibrant Portraits of 2020</h3>
                             <p class="work-prev__meta">
                                 <span class="work-prev__year">2018</span>
@@ -116,8 +117,8 @@
                         </div>
                     </div>
                     <div class="work-prev">
-                        <img class="work-prev__img" src="./assets/images/work-3.png" alt="project preview">
-                        <div>
+                        <img class="work-prev__img" src="./assets/images/work-3.png" alt="project preview" data-aos="fade-right" data-aos-duration="1000">
+                        <div class="work-prev__description" data-aos="fade-left" data-aos-duration="1000">
                             <h3 class="work-prev__title">36 Days of Malayalam type</h3>
                             <p class="work-prev__meta">
                                 <span class="work-prev__year">2018</span>
@@ -133,7 +134,7 @@
                 </div>
             </section>
         </main>
-        <footer class="footer">
+        <footer class="footer" data-aos="fade-up" data-aos-duration="1000">
             <ul class="footer__socials" id="contact">
                 <li>
                     <a href="#"><i class="fa fa-facebook"></i></a>
@@ -151,6 +152,7 @@
             <p class="footer__copyright">Copyright &copy;2020 All rights reserved</p>
         </footer>
     </div>
+    <script src="./assets/animate/aos.js"></script>
     <script src="./assets/js/app.js"></script>
 </body>
 </html>

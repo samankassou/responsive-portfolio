@@ -4,3 +4,4 @@ const navMenu = document.getElementById('nav-menu')
 toggleMenuBtn.addEventListener('click', ()=>{
     navMenu.classList.toggle('active')
 })
+AOS.init()
